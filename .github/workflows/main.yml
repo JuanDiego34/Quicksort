@@ -3,12 +3,12 @@ on: [push]
 
 jobs:
   build:
+  
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         java: [8, 11, 17]
-
     steps:
     - uses: actions/checkout@v3
       
