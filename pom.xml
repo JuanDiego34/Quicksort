@@ -65,13 +65,7 @@
 
         </plugins>
     </build>
-  
-  <dependencies>
-    <dependency>
-    <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>dependency-check-jenkins-plugin</artifactId>
-    <version>5.4.3</version>
-</dependency>
+
   	<dependency>
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
